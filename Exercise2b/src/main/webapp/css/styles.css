@@ -1,0 +1,110 @@
+body {
+  font-family: 'Times New Roman', Times, serif;
+  background-color: #F9F8F9;
+  font-size: 20px;
+}
+
+.container {
+  margin: 0 auto;
+  width: 800px;
+}
+
+table, th, td {
+  height: 10px;
+	border: 3px solid black;
+  border-collapse: collapse;
+  text-align: center;
+}
+
+th, td{
+  width: 60px;
+  height: 30px;
+}
+
+table {
+  width: 420px;
+}
+
+select {
+  width: 100%;
+  height: 100%;
+}
+
+.date-js {
+  width: 100px;
+  color: red;
+  background-color: #BEBEBE;
+}
+
+.day-js {
+  background-color: #FBFCFC;
+  font-weight: normal;
+}
+
+.not_day-js {
+  background-color: #2D2D2D;
+  font-weight: normal;
+}
+
+.nav-js {
+  background-color: #A9CCE3;
+  cursor: pointer;
+}
+
+.text {
+  margin-bottom: 5px;
+  background-image: url("../images/calendar.png");
+  background-repeat: no-repeat;
+  background-position: right;
+  font-size: 15px;
+  height: 25px;
+}
+
+.choice-js:hover {
+  background-color: aqua;
+  cursor: pointer;
+}
+
+
+.row{
+  margin-top: 3px;	
+  margin-left: 5px; 
+  display: flex;
+}
+
+.form_label {
+  width: 106px;
+  line-height: 10px;
+  margin-right: 10px;
+  font-weight: bold;
+  font-size: 20px;
+  text-align: right;
+  margin-top: 10px;
+}
+
+.field {
+  width: 300px;
+  height: 25px;
+  border: 1px solid #C5F1D8;
+  margin-bottom: 10px;
+  margin-right: 2px;
+}
+
+.button {
+  margin-right: 10px;
+  height: 40px;
+  background-color: #2471A3;
+  border: 2px solid #5C9EC9;
+  border-radius: 5px;
+  color: white;
+}
+
+span {
+  color: red;
+  font-weight: bold;
+}
+
+.align_center {
+  display: block;
+  margin-left: 120px;
+}
