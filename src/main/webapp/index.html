@@ -32,7 +32,7 @@
                     </div>
                     <div class="row align_center">
                         <input class="button" type="submit" value="SUBMIT">
-                        <button class="button" value="REFRESH">REFRESH</button>
+                        <button class="button" type="reset" value="REFRESH">REFRESH</button>
                     </div>
             </form>
         </div>
