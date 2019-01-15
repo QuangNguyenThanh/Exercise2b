@@ -172,7 +172,7 @@ function selectCbo(year, month, dayOfMonth) {
     var firstDay = date.getDay();
     var i;
     var count = 1;
-    var listday = document.getElementById("table").getElementsByTagName("td");
+    var listday = document.getElementById("table-js").getElementsByTagName("td");
     for (i = 0; i < 42; i++) {
         if (i < firstDay) {
             listday[i].setAttribute("class", "not_day-js");                
